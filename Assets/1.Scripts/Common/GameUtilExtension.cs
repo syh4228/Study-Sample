@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class GameUtilExtension // 오브젝트 삭제 컴포넌트
+public static class GameUtilExtension // 오브젝트 삭제 컴포넌트
 {
     public static void RemoveComponent<T>(this GameObject obj) where T : Component
     {

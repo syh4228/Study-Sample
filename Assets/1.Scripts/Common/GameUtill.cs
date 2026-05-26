@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine.UI;
 
-public class GameUtill
+public static class GameUtill
 {
     // 마지막으로 할당된 ID를 전역적으로 기록 (스레드 안전)
     private static long _lastId = 0;
