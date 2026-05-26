@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class IObjectable
+public interface IObjectable
 {
     // 이 인터페이스를 가져다 쓰는 녀석은 무조건 ObjectName이라는 이름표와 ObjectNumber라는 번호표를 가지고 있어야 한다
     // { get; set; }은 이 값을 읽고 쓸 수 있게 열어두라는 뜻
