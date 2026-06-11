@@ -6,7 +6,8 @@ public class MonoClass : MonoBehaviour
     // 변수 선언
     // !! => MonoBehaviour를 상속받은 스크립트는 절대 new 키워드로 생성하면 안 됩
     // 유니티의 컴포넌트는 오직 Instantiate나 AddComponent로만 생성해야 됨
-    public MonoClass _emptyCodeNonMono = new MonoClass();
+    // 반대로 PureCSharpClass 컴포넌트를 c# 기본클래스로 만들었기에 꼭 new로 생성해야함
+    public PureCSharpClass _emptyCodeNonMono = new PureCSharpClass();
     bool _isFirstFixedUpdate = false;
     bool _isFirstUpdate = false;
     bool _isFirstLateUpdate = false;
