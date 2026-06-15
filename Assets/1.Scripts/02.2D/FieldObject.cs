@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
-public class FieldObject : DaniTech_Entity
+public class FieldObject : Entity
 {
     [Header("에디터 확인용 데이터 - 따로 지정하는 용도는 아닙니다")]
     // 오브젝트 생성시 부여받는 고유번호 저장 (ex) 100번째 생성된 사과
